@@ -1,0 +1,208 @@
+body{
+
+ height:100vh;
+
+}
+
+.bg {
+	
+}
+
+.face{
+	position: relative;
+	top: 175px;
+	left: 475px;
+
+}
+.banner{
+	position: absolute;
+	left: 675px;
+}
+.ig{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.twt{ 
+	display: block;
+	width: 100%;
+	height: auto;
+	}
+
+.link {
+  position: relative;
+  display: inline-block;
+  width: 58px;
+  height: 56px;
+  top: 515px;
+  left: 925px;
+ margin-left: 5px;
+ margin-right: 5px;
+ 
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: .5s ease;
+
+}
+
+.link:hover .overlay {
+  opacity: .5;
+  background-image: url('../images/ig_sm.png');
+}
+
+h1 {
+	font-family: 'Avenir', sans-serif;
+	font-weight: 800;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right:20px;
+
+}
+
+.nav{
+position: absolute;
+bottom: 700px;
+left: 75px;
+}
+
+#navt{
+
+	color: black;
+}
+
+#navt:hover {
+	color: #F69F94;
+	transition: .5s ease;
+}
+
+#selected{
+	color: #F69F94;
+}
+
+#selected:hover {
+	color: black;
+	transition: .5s ease;
+
+}
+
+h2 {
+	font-family: 'Avenir' sans-serif;
+	font-weight: 800;
+	font-size: 70px;
+	text-align: right;
+	line-height: 100px;
+
+
+}
+.work_nav{
+	position: absolute;
+	top: 250px;
+	left:180px;
+
+}
+
+#work{
+	color: #F69F94;
+
+}
+
+#work:hover{
+	color: black;
+	transition: .9s ease;
+}
+
+.abttext{
+	position: absolute;
+	width: 710px;
+	height: 680px;
+	left: 720px;
+	top:25px;
+
+}
+
+.abt_title{
+	position: relative;
+	top:50px;
+	left: 30px;
+
+}
+
+.abt_txt{
+	position:relative;
+	font-family: 'Roboto Mono', 'Courier New', monospace;
+	font-weight: 400;
+	font-size: 18px;
+	width: 400px;
+	left: 170px;
+	top: 150px;
+
+}
+
+p{
+	text-align: center;
+}
+
+#exit {
+	font-weight: 800;
+	color:#F69F94;
+}
+
+.sparkle{
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 25px;
+	margin-bottom: 50px;
+
+}
+
+#email{
+	display: inline-block;
+	color: black;
+	font-weight: 800;
+}
+
+.workspace{
+	position: absolute;
+	width:805px;
+	height: 700px;
+	left: 700px;
+	top:0px;
+
+}
+
+.gallery {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.image:hover{
+	opacity: .5;
+	transition: .5s ease;
+
+}
+
+.ill_space{
+	position: absolute;
+	width:805px;
+	height: 700px;
+	left: 700px;
+	top:25px;
+}
